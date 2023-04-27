@@ -13,6 +13,6 @@ BEGIN
   INSERT INTO complaints(complaintid, passengerid, stationid, trainid, complainttype, complaintdesc, complaintdate)
   VALUES (complaint_seq.NEXTVAL, passenger_id, station_id, train_id, complaint_type, complaint_desc, SYSDATE);
   
-  DBMS_OUTPUT.PUT_LINE('New complaint added');
+  DBMS_OUTPUT.PUT_LINE('Complaint added successfully.');
 END;
 /
