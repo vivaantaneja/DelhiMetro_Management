@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delhi Metro</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Delhi Metro
+        </a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">Transportio</a>
+
+          <button class="nav-close-btn" aria-label="Clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>
+              <span>Tickets</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link" data-nav-link>
+              <span>Services</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#feature" class="navbar-link" data-nav-link>
+              <span>More</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#members" class="navbar-link" data-nav-link>
+              <span>Members</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-contact">
+
+        <div>
+          <p class="contact-label">Helpline Number</p>
+
+          <a href="tel:1155370" class="contact-number">155370</a>
+        </div>
+
+        <div class="contact-icon">
+          <ion-icon name="call-outline"></ion-icon>
+        </div>
+
+      </div>
+
+      <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home" id="home"
+        style="background-image: url('./assets/images/hero-banner.png')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h2 class="h1 hero-title">
+              <span class="span">Delhi Metro</span> Management
+            </h2>
+
+
+            <a href="#" class="btn-outline">View Services</a>
+
+            <img src="./assets/images/hero-shape.png" width="116" height="116" loading="lazy"
+              class="hero-shape shape-1">
+
+            <img src="./assets/images/hero-shape.png" width="116" height="116" loading="lazy"
+              class="hero-shape shape-2">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner img-holder" style="--width: 400; --height: 720;">
+            <img src="./assets/images/about-banner.png" width="400" height="720" loading="lazy" alt=""
+              class="img-cover">
+
+            <img src="./assets/images/about-shape-1.png" width="260" height="170" loading="lazy" alt=""
+              class="abs-img abs-img-1">
+
+            <img src="./assets/images/about-shape-2.png" width="500" height="500" loading="lazy" alt=""
+              class="abs-img abs-img-2">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Book Your Ticket</p>
+
+            <h2 class="h2 section-title">Delhi Mtero booking for any station</h2>
+
+            <p class="section-text">
+              Procedure to book your tickets
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Click the book tickets button below
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Enter the station of departure and arrival
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Enter the time you want to board the metro
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Proceed to payment options
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Pay using your metro card number now
+                </p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-icon">
+                  <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+
+                <p class="about-text">
+                  Enjoy your journey !
+                </p>
+              </li>
+
+            </ul>
+
+            <a href="#" class="btn">Book Ticket</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle">All Services</p>
+
+          <h2 class="h2 section-title">Trusted For Our Services</h2>
+
+          <p class="section-text">
+            View all services that we provide
+          </p>
+
+          <ul class="service-list grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.png" width="80" height="60" loading="lazy" alt="Truck">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">01</span> Book Tickets
+                </h3>
+
+                <p class="card-text">
+                  Book Tickets in advance from your home and avoid standing in lines at the station
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">View Detail</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="74" height="60" loading="lazy" alt="Ship">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">02</span> View Routes
+                </h3>
+
+                <p class="card-text">
+                  View all the routes of Delhi metro and all the 10 lines and get to know your routes better
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">View Detail</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="60" height="60" loading="lazy" alt="Airplane">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">03</span> Train Schedule
+                </h3>
+
+                <p class="card-text">
+                  Know the schedule of the metros and select the metro best for you to be on time
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">View Detail</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-5.png" width="50" height="60" loading="lazy" alt="Train">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">04</span> Lost and found
+                </h3>
+
+                <p class="card-text">
+                  Find your lost items easily now by sending us a request and getting an instant response
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">View Detail</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="63" height="60" loading="lazy" alt="Trolley">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">05</span> Recharge your card
+                </h3>
+
+                <p class="card-text">
+                  Add money to you card from your home and use it on the station directly instead of a ticket
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">View Detail</span>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-6.png" width="46" height="60" loading="lazy" alt="Paper">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <span class="span">06</span> Complaint
+                </h3>
+
+                <p class="card-text">
+                  File a complain about any inconvenience at the station and get a reply instatntly
+                </p>
+
+                <a href="#" class="btn-link">
+                  <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+                  <span class="span">View Detail</span>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-label="feature" id="feature">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">More Services</p>
+
+              <h2 class="h2 section-title">Additional Services</h2>
+
+              <p class="section-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever
+                since the when an
+                printer took.
+              </p>
+            </div>
+
+            <a href="#" class="btn">Read More</a>
+
+          </div>
+
+          <ul class="feature-list grid-list">
+
+            <li>
+              <div class="feature-card" style="--card-number: '01'">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-icon-1.png" width="72" height="91" alt="">
+                </div>
+
+                <h3 class="h3 card-title">Instant Complain</h3>
+
+                <p class="card-text">
+                  File a complain about any inconvenience at the station and get a reply instatntly
+                </p>
+
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card" style="--card-number: '02'">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-icon-2.png" width="94" height="94" alt="">
+                </div>
+
+                <h3 class="h3 card-title">Food Facility</h3>
+
+                <p class="card-text">
+                  Find best and your favourite eating joints at the metro station
+                </p>
+
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card" style="--card-number: '03'">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-icon-3.png" width="93" height="93" alt="">
+                </div>
+
+                <h3 class="h3 card-title">Parking</h3>
+
+                <p class="card-text">
+                  Also check for parking your personal vehicals at your stations
+                </p>
+
+                <a href="#" class="card-btn" aria-label="Read more">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter" aria-label="newsletter" id="members">
+        <div class="container">
+
+          <figure class="newsletter-banner img-holder">
+            <img src="./assets/images/newsletter-banner.png" width="303" height="381" alt="newsletter banner"
+              class="w-100">
+          </figure>
+
+          <div class="newsletter-content">
+
+            <h2 class="h2 section-title">एक भारत, एक मेट्रो, एक पोर्टल</h2>
+
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Delhi Metro</a>
+
+          <p class="footer-text">
+            Delhi Metro Management System for DBMS Project
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Members</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Vivaan Taneja</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Aryan Julka</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Mohak Sharma</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Riya Sharma</a>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Roll No,</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">102103825</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">102103829</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">102103845</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">102103832</a>
+          </li>
+
+        </ul>
+
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; Delhi Metro Management Front End by <a href="#" class="copyright-link"> VIVAAN TANEJA</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
